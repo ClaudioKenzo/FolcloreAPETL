@@ -1,0 +1,98 @@
+/* GLOBAL */
+*{
+
+    margin: 0;   /*espaço*/
+    padding:0;  /*preenchimento*/
+  }
+  
+  body{
+    background-color: #e3f3ff; /* hex : 0-F */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul{ 
+    list-style: none;
+  }
+  /*Fonts*/
+  
+  h1,h2,h3, .price {
+    font-family: 'Roboto Serif' serif;
+    
+  }
+  
+  
+    /*  max-width:300px largura máx extraída do modelo figma.com 
+    /* margin: 0 auto; centralizar caixa */
+    /*  text-align: center;  centralizar texto */
+  
+  /*CABEÇALHO*/
+  header{
+    padding: 32px 0;             
+    text-align: center;  
+  }
+  
+  header,
+  section {
+  max-width: 300px;
+  margin: 0 auto;
+  }
+  header h1{
+    margin-bottom: 4px;
+    font-size: 38px;
+    line-height: 33px ;
+  }
+  
+  header h1 span{
+    font-family: cursive;
+    font-size: 30px;
+  color: rgba(6, 62, 206, 0.666);
+  
+  }
+  
+  h1{
+    font-family: Monotype corsiva;
+    font-size: 40px;
+    color: rgb(182, 151, 26);
+  }
+  
+  section{
+  margin-bottom: 24px;
+  
+  }
+  
+  section h2 {
+  background-color: rgb(47, 71, 252);
+  padding: 8px 16px;
+  text-align: center;
+  margin-bottom: 24px; /*espaço abaixo*/
+  font-size: 18px;
+  }
+  /*LISTA*/
+  
+  ul li{
+    margin-bottom: 16px;
+    display: flex; /*Alinhar ao lado as caixas "filhos com os pais*/
+  }
+  
+  li .details {
+    max-width: 240px;
+  
+  }
+  .details h3{
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px
+  }
+  
+  .options {
+    font-family: cursive;
+    color: white
+  }
+  
+  .details p {
+    color: rgba (0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px
+  }
+  
+  
