@@ -43,14 +43,14 @@
   }
   
   header h1 span{
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
   color: rgba(6, 62, 206, 0.666);
   
   }
   
   h1{
-    font-family: Monotype corsiva;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: rgb(182, 151, 26);
   }
@@ -85,7 +85,7 @@
   }
   
   .options {
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     color: white
   }
   
